@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/StarOfServiceUIAutomation/src/test/java/com/testCases/TC001_StartRun.java">
+        <classes>
+            <class name="com.testCases.TC001_StartRun">
+                <methods>
+                    <include name="mainTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
